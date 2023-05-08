@@ -5,8 +5,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='spotifysxm',
-    version='0.0.1',
-    author='Austin Harley',
+    version='1.0.0',
+    author='Austin Daviscourt',
     author_email='austin@daviscourt.io',
     description='Testing installation of Package',
     long_description=long_description,
