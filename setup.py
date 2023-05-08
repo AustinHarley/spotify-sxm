@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='spotifysxm',
+    name='spotify-sxm',
     version='0.0.1',
     author='Austin Harley',
     author_email='austin@daviscourt.io',
@@ -16,6 +16,6 @@ setuptools.setup(
     #     "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
     # },
     license='',
-    packages=['spotifysxm'],
+    packages=['spotify-sxm'],
     install_requires=['spotipy','slack_sdk'],
 )

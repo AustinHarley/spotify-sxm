@@ -19,7 +19,7 @@ class SXMify:
             self.slacker = slack_sdk.WebClient(token=slack_token)
         self.spotify_client = self.init_spotify_client()
 
-    def init_spotify_client(self, redirect_uri="http://localhost:6969/callback"):
+    def init_spotify_client(self, redirect_uri="http://localhost:1234/callback"):
         scopes = "playlist-modify-public user-library-read"
         sp_oauth = spotipy.oauth2.SpotifyOAuth(
             client_id=self.spotify_client_id,
