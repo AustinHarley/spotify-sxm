@@ -16,6 +16,6 @@ setuptools.setup(
     #     "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
     # },
     license='',
-    packages=['spotify-sxm'],
+    packages=['spotify-sxm/'],
     install_requires=['spotipy','slack_sdk'],
 )
